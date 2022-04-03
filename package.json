@@ -1,6 +1,25 @@
 {
   "dependencies": {
     "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
     "node-telegram-bot-api": "^0.56.0"
-  }
+  },
+  "name": "wiki_bot",
+  "description": "Sends a random article to a telegram bot created.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harikris8055/wiki_bot.git"
+  },
+  "author": "harikris8055",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harikris8055/wiki_bot/issues"
+  },
+  "homepage": "https://github.com/harikris8055/wiki_bot#readme"
 }
